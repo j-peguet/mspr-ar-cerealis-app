@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4984621665513082823
+  m_GuidHigh: 10135732368853997964
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4679691788375539151
+      m_GuidHigh: 8607499804107352222
+    m_SerializedTextureGuid:
+      m_GuidLow: 6743087318213093155
+      m_GuidHigh: 5426313372982369131
+    m_Size: {x: 0.5, y: 0.70707375}
+    m_SpecifySize: 0
+    m_Name: rhino
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5283777222475726001
+      m_GuidHigh: 16065244983754081966
+    m_SerializedTextureGuid:
+      m_GuidLow: 11935889156938793338
+      m_GuidHigh: 6328900485087047016
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: snake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5329619395571310916
+      m_GuidHigh: 3013979004486779064
+    m_SerializedTextureGuid:
+      m_GuidLow: 18326362727324034253
+      m_GuidHigh: 4322430876052962440
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: monkey
+    m_Texture: {fileID: 0}
