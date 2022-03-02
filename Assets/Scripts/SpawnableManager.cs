@@ -36,9 +36,10 @@ public class SpawnableManager : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit))
                 { 
+                    spawnedObject = hit.collider.gameObject;
                     if (hit.collider.gameObject.tag == "Spawnable")
                     { 
-                        spawnedObject = hit.collider.gameObject;
+                        // spawnedObject = hit.collider.gameObject;
                     } 
                     else 
                     { 

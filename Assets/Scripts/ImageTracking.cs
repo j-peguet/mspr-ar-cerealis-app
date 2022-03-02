@@ -20,6 +20,7 @@ public class ImageTracking : MonoBehaviour
         {
             GameObject newPrefap = Instantiate(prepab, Vector3.zero, Quaternion.identity);
             newPrefap.name = prepab.name;
+            newPrefap.SetActive(false);
             spawnedPrebaps.Add(prepab.name, newPrefap);
         }
     }
@@ -57,7 +58,10 @@ public class ImageTracking : MonoBehaviour
         string name = trackedImage.referenceImage.name;
         Vector3 position = trackedImage.transform.position;
 
+        // Material[] materials = new Material[2];
+
         GameObject prefab = spawnedPrebaps[name];
+        // prefab.GetComponent<MeshRenderer>().materials = materials;
         prefab.transform.position = position;
         prefab.SetActive(true);
 
@@ -65,7 +69,7 @@ public class ImageTracking : MonoBehaviour
         {
             if(go.name != name)
             {
-                go.SetActive(false);
+                // go.SetActive(false);
             }
         }
     }
